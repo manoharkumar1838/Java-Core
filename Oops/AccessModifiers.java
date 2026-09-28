@@ -9,10 +9,10 @@ public class AccessModifiers {
         myAcc.setUsername(name);
         System.out.println(myAcc.Username);
 
-        // can not access password in private
+        // can not access password in private outside class
         // myAcc.password = "Manohar@123";
 
-        // Can only set password in private
+        // Only can set password in private
         myAcc.setPassword("Manohar@123");
 
     }
