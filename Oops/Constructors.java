@@ -34,7 +34,7 @@ class Student {
             this.age = age;
         }
         /*
-        onstructor overloading :-
+        Constructor overloading :-
         Having more then one constructor in a same class but with different parameter.
         */
     
