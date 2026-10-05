@@ -17,7 +17,7 @@ public class Abstraction {
       
         Mustang myHorse = new Mustang();
 
-        // Can not create animal object
+        // Can not create animal object in Abstract class
        // Animal a1 = new Animal();
     }
 }
@@ -30,7 +30,7 @@ abstract class Animal {
     }
 
     // Normal Or non-abstrsct method
-    // Implementaion
+    // Implementaion must present
     void eat() {
         System.out.println("Can eat");
     }
